@@ -1,0 +1,136 @@
+body{
+    background: red;
+}
+h1{
+    font-size: 25px;
+    color:floralwhite;
+    margin: 20px;
+    padding: 5px;
+}
+h2{
+    font-size: 25px;
+    color:bisque;
+    margin: 20px;
+    padding:5px;
+}
+p,a,ul,ol{
+    font-size:15px;
+    color:azure;
+    margin: 10px;
+    padding:5px;
+}
+.content-left{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    border-radius:25px;
+    background: black;
+    margin:20px;
+    padding: 5px;
+}
+.content-right{
+    display:flex;
+    flex-direction:column;
+    width: 45%;
+    height:20%;
+    background: brown;
+    border-radius:25px;
+    margin:170px;
+    padding:50px;
+
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.photo{
+    width: 600px;
+}
+.header{
+    text-align:right;
+}
+.container{
+    background: greenyellow;
+    text-align: center;
+}
+.block{
+    width:200px;
+    height:200px;
+    background: aquamarine;
+    margin:0 auto;
+}
+.photo_center{
+    width: 200px;
+    display:block;
+    margin:-155px auto;
+}
+.container-2{
+    background:orangered;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+}
+.block-2{
+    width:200px;
+    height:200px;
+    background:yellow;
+}
+.container-3{
+    background: gray;
+    border: dashed rgb(10, 255, 255);
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-3{
+    height:200px;
+    width:200px;
+    background: rebeccapurple;
+    margin-bottom:30px;
+}
+.container-4{
+    position:relative;
+    background:white;
+    border: 8px solid black;
+    height:500px;
+}
+.square {
+    position: absolute;
+    border: solid;
+}
+
+.red {
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+}
+
+.blue {
+    border-color: blue;
+    width: 100px;
+    height: 100px;
+    left: 170px;
+    top: 170px;
+}
+
+.green {
+    border-color: green;
+    width: 100px;
+    height: 100px;
+    left: 240px;
+    top: 240px;
+}
+
+.photo_mod {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 30px;
+    right: 30px;
+}
